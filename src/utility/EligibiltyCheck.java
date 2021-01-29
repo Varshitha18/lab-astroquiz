@@ -3,6 +3,7 @@ package utility;
 import model.User;
 
 public class EligibiltyCheck extends BasicEligibility implements EligibilityInterface {
+	@Override
 	public boolean basicEligibilityCheck (User user) {
 		return checkUser(user);
 	}
